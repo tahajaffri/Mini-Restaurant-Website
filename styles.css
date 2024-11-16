@@ -71,6 +71,11 @@ a, a:visited, a:hover, a:active {
     text-align: center;
 }
 
+.main-menu p{
+    font-size:40px;
+    letter-spacing: 8px;
+}
+
 .dish-card {
     display: grid;
     margin-top:30px;
@@ -156,7 +161,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .main-contact p{
-    font-size:50px;
+    font-size:40px;
     letter-spacing: 8px;
 }
 

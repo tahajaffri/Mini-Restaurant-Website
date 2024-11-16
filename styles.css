@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*------------------- Home page styles------------------------- */
+
+hr{
+    margin-top:40px;
+    margin-bottom:40px;
+    width:100%;
+    border:0.1px solid darkred;
+}
+body{
+    background-color:lightgoldenrodyellow;
+}
+h1{
+    letter-spacing: -3px;
+    font-size: 100px;
+    color:darkred;
+}
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+.desc{
+    text-align:center;
+}
+.desc p{
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.banner{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:700px;
+    border: 2px solid black;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    box-shadow: 0px 0px 50px rgba(188, 0, 0, 0.57);
+}
+.desc ul{
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size:35px;
+    cursor:pointer;
+    transition: all 0.4s;
+}
+.desc ul:hover{
+    letter-spacing: 4px;
+    font-weight: 700;
+    scale: 1.2;
+}
+
+/*------------------- Menu page styles------------------------- */
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-menu h2 {
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+.dish-card {
+    display: grid;
+    margin-top:30px;
+    margin-bottom:30px;
+    width: 45rem;
+    height: 14rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dish-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+.dish-pic:hover{
+    scale:1.1;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.dish-pic img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border: 5px dotted brown;
+    border-radius:25px;
+}
+
+
+.dish-name {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:10px;
+}
+
+.dish-name ul {
+    color:darkred;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.back{
+    color:darkred;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top:50px;
+    margin-bottom:50px;
+    transition: all 0.3s;
+    border:2px solid darkred;
+    border-radius:60px;
+    padding:10px 30px 20px 30px;
+}
+
+.back:hover{
+    transform: translateX(20px);
+}
+
+/*------------------- Contact page styles------------------------- */
+
+.main-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+
+.main-contact h2 {
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+.main-contact p{
+    font-size:50px;
+    letter-spacing: 8px;
+}
+
+.contact-methods {
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items:center;
+    text-align: center;
+}
+.contact-methods ul{
+    margin-top:20px;
+    font-size:40px;
+}
+.contact-methods ul a{
+    margin-top: 10px;
+    letter-spacing: 5px;
+    color:rgb(0, 46, 162);
+}
+
+
+
